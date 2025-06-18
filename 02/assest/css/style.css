@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1280px;
+  /* max-width: 1140px; */
+  margin: auto;
+}
+
+
+/* /* section-1 */
+
+
+.section-1 {
+  background-color: rgba(215, 215, 215, 0.137);
+}
+
+.Icons {
+  color: white;
+  background-color: rgb(46, 202, 106);
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  margin: 0px 0px 20px;
+  border-radius: 50px;
+  transition: 0.3s ease-in-out;
+}
+
+.icon-circle {
+  width: 60px;
+  height: 60px;
+  background-color: #28c76f;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-circle i {
+  color: white;
+  font-size: 24px;
+}
+
+.custom-card {
+  border: none;
+  border-radius: 1rem;
+  padding: 23px;
+  height: 100%;
+}
+
+.costum-button{
+  color: #28c76f;
+}
+
+.costum-button-2{
+  color: #28c76f;
+}
+
+.costum-button-3{
+  color: #28c76f;
+}
+
+.costum-button::before{
+  color: #ffffff;
+}
+.costum-button::after{
+  color: #28c76f;
+}
+/*  section-1 end */
+
+
+/*  section-2 */
+
+
+.agent-img {
+  object-fit: cover;
+  width: 100%;
+}
+
+
+.social-icons i {
+  font-size: 1.2rem;
+  color: #ccc;
+  margin-right: 0.75rem;
+  transition: color 0.3s;
+}
+
+.social-icons i:hover {
+  color: #333;
+}
+
+.profile-title {
+  font-weight: 600;
+}
+
+.profile-role {
+  font-style: italic;
+  color: #6c757d;
+}
+
+.divider {
+  width: 40px;
+  border-top: 1px solid #ccc;
+  margin: 0.25rem 0;
+}
+
+.profile-role {
+  font-style: italic;
+  color: #6c757d;
+  margin-right: 155px;
+}
+
+.profile-title {
+  font-weight: 600;
+  margin-right: 214px;
+}
+.coustom-card-5{
+  padding-top: 10px;
+}
+.custom-card-7 {
+  background-color: #ffffff;
+  width: 96%;
+  margin-left: 7px;
+  bottom: 50px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.custom-card-6 {
+  position: absolute;
+  bottom: 5px;
+  left: 198px;
+}
+
+
+/* footer */
+
+.coustom-round {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: 1px solid gray;
+  text-align: center;
+}
+
+.coustom-icon-1{
+  position: relative;
+  top: 7px;
+}
+
+
+
